@@ -1,6 +1,6 @@
-# hklight
+# hktemp
 
-This is a sample project of a HomeKit light bulb using [HomeControl](https://github.com/brutella/hc). [Read more](#TODO).
+Temp sensor HomeKit project using [HomeControl](https://github.com/brutella/hc).
 
 # Installation
 
@@ -10,17 +10,17 @@ Make sure that you have a working [Go installation](http://golang.org/doc/instal
 
 ## Checkout
 
-- Clone project `git clone https://github.com/brutella/hklight && cd hklight`
+- Clone project `git clone https://github.com/FudgeFactor89/hktemp && cd hktemp`
 - Install dependencies `go get`
 
 ## Build
 
-Build with `go build hklightd.go`.
+Build with `go build hktempd.go`.
 
 ## Run
 
-Execute the executable `./hklightd` or run with `go run hklightd.go`.
+Execute the executable `./hktempd` or run with `go run hktempd.go`.
 
 # License
 
-hklight is available under a non-commercial license. See the LICENSE file for more info.
+hktempd is available under a non-commercial license. See the LICENSE file for more info.
